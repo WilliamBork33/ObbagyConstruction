@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Professional Portfolio Website - Bootstrap</title>
+
+    <!-- Linking to Bootstrap CDN and CSS Styles Sheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/styles/styles.css">
+</head>
+
+<body>
+<!-- Responsive Content Container -->
+<div class="container-fluid">
+
+    <!-- Row for page title and subtitle -->
+    <row class="row" id="title-row">
+        <div class="col-md-12">
+            <div class="title-div">
+                <h1>William Bork</h1>
+                <h2>K-12 Education Professional</h2>
+            </div>
+
+             <!-- Social Media Links -->
+             <div class="social-links">                
+                <a href="https://twitter.com/williambork" target="_blank" class="icon-twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://github.com/WilliamBork33" target="_blank" class="icon-github">
+                    <i class="fab fa-github"></i>     
+                </a>
+                <a href="https://www.youtube.com/watch?v=rCylqBqW0ls&list=PLApyRA4dpS2Pgy6whH8TfDPZfJzZp__7Y" target="_blank" class="icon-github">
+                    <i class="fab fa-youtube"></i>    
+                </a>
+                <a href="https://www.linkedin.com/in/william-n-aaron-bork-aa865152/" target="_blank" class="icon-github">
+                    <i class="fab fa-linkedin"></i>    
+                </a>       
+            </div>
+        </div>
+    </row>
+
+    <br>
+
+    <!-- Row for navigation buttons -->
+    <row class="row" id="nav-row">
+        <div class="col-md-12">
+            <a class="btn btn-outline-dark btn-sm" href="index.html" role="button">Home</a>
+            <a class="btn btn-outline-dark btn-sm" href="about.html" role="button">About</a>
+            <a class="btn btn-outline-dark btn-sm" href="portfolio.html" role="button">Portfolio</a>
+        </div>
+    </row>
+
+    <br>
+
+    <!-- Row for introduction text -->
+    <row class="row">
+        <!-- Column for Spacing -->
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div class="page-content">
+                <p>Professional K-12 educator of 6 years with experience in 3 countries (USA, Taiwan, and Mexico). Current
+                    student of full stack web developer program (HTML5, CSS3, JavaScript, jQuery, Bootstrap, APIs, Firebase,
+                    Express.js, React.js, Node.js, Git, and more). Chatbot and machine learning enthusiast. Cross-cultural
+                    competency and multilingual skills (English, Spanish, Chinese). Life-long learner with multiple degrees and
+                    current doctoral student in educational technology and psychology. Leadership experience and training. Soon
+                    to be licensed as a school-building principal. Seeking roles that allow me to combine my growing technical
+                    skills with my experience in K-12 education to create innovative solutions for challenges in teaching and
+                    learning.
+                </p>
+                <p id="william-signature">- William N. Aaron Bork <br> <a href="https://drive.google.com/open?id=19FcC80sZFRo8b5jOW09JaAkvANyzigF1">Curriculum Vitae (06.01.18).pdf</a></p>
+            </div>
+        </div>
+        <!-- Column for Spacing -->
+        <div class="col-md-2"></div>
+    </row>
+
+    <!-- Row for h3 text -->
+    <row class="row">
+        <!-- Column for Spacing -->
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div class="page-content">
+                <h3>I have expertise in the following areas:</h3>
+            </div>
+        </div>
+        <!-- Column for Spacing -->
+        <div class="col-md-2"></div>
+    </row>
+
+    <!-- Row for Accordion Component -->
+    <row class="row">
+        <!-- Column for Spacing -->
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <!-- Accordion Component -->
+            <div id="accordion">
+
+                <!-- Web Development Skills Card -->
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Web Development Skills</button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">CSS / HTML / JavaScript / jQuery / Firebase.</div>
+                    </div>
+                </div>
+
+                <!-- K-12 Education Leadership Card -->
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">K-12 Education Leadership</button>
+                        </h5>
+                    </div>
+    
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">Teacher Development & Evaluation / School Community Relations / Education Law / Curriculum & Instructional Leadership / Culture Building / Human Capital Management / Financial Resources Planning & Budgeting.</div>
+                    </div>
+                </div>
+
+                <!-- Educational Technology Card -->
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Educational Technology</button>
+                        </h5>
+                    </div>
+                
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body"> 1-to-1 Device Classrooms / Robotics (Dot & Dash, Sphero) / Schoology LMS / SMART Board / Educational Applications (Code.org, Code Avengers, Nearpod, Kahoot, IXL.com, Read Theory, and more...).</div>
+                    </div>
+                </div>
+
+                <!-- Curriculum Design, Lesson Planning, & Teaching Card -->
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Curriculum Design, Lesson Planning, & Teaching</button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">Mathematics / Science / Programming (Visual Programming Languages, CSS, HTML, JavaScript) / Foreign Language / Bilingual Education / Literacy / ENL / Multicultural Education / Human Movement, Fitness, & Sport Education / Student Leadership Skills.</div>
+                    </div>
+                </div>
+
+                <!-- Teacher Training Card -->
+                <div class="card">
+                    <div class="card-header" id="headingFive">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Teacher Training</button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                        <div class="card-body">Classroom Systems / Space & Materials Organization / Behavior Management / Curriculum Design / Online & Traditional Lesson Planning / Instructional Coaching.</div>
+                    </div>
+                </div>
+
+                <!-- Research Design & Implementation Card -->
+                <div class="card">
+                    <div class="card-header" id="headingSix">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Research Design & Implementation</button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                        <div class="card-body">Qualitative / Quantitative / Mixed-Methods.</div>
+                    </div>
+                </div>
+
+                <!-- Academic Writing Card -->
+                <div class="card">
+                    <div class="card-header" id="headingSeven">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Academic Writing</button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                        <div class="card-body">Writing, editing, and proofreading services for Non-Native English writers.</div>
+                    </div>
+                </div>
+
+                <!-- Fundraising Card -->
+                <div class="card">
+                    <div class="card-header" id="headingEight">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">Fundraising</button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+                        <div class="card-body">Grant Writing & Crowdsource Funding.</div>
+                    </div>
+                </div>
+
+                <!-- Languages Card -->
+                <div class="card">
+                    <div class="card-header" id="headingNine">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">Languages</button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+                        <div class="card-body">English (native) / Spanish (advanced) / Mandarin Chinese (novice).</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Column for Spacing -->
+        <div class="col-md-2"></div>
+    </row>
+</div>
+
+    <!-- Linking to Bootstrap's JavaScript and jQuery CDNs -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

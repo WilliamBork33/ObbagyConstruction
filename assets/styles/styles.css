@@ -1,0 +1,84 @@
+.container-fluid {
+    background-color: whitesmoke;
+}
+
+.row {
+    background-color: whitesmoke;
+}
+
+#title-row {
+    background-color: slategray;
+    outline-style: double;
+    outline-color: black;
+    outline-width: 5px;
+    
+}
+
+#nav-row {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.btn {
+    width: 70px;
+}
+
+.btn-portfolio {
+    width: 110px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+#william-signature, #william-cv {
+   text-align: right;
+}
+
+.social-links {
+   text-align: center;
+}
+
+.fab {
+    color: black;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+
+}
+
+#p-portfolio {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration-line: underline;
+}
