@@ -1,15 +1,16 @@
+/* Background Image */
 body {
     background-image: url(../images/tools3.jpg);
 }
 
-/* Webpage Background Color */
-.container-fluid {
-    
+/* Background Image */
+#body-about {
+    background-image: url(../images/tools4.jpg);
 }
 
-/* Standard Row Color */
-.row {
-    background-color: transparent;
+/* Background Image */
+#body-recentworks {
+    background-image: url(../images/tools5.jpg);
 }
 
 /* Text Formatting */
@@ -19,7 +20,15 @@ h1 {
     font-weight: 500;
     padding-top: 10px;
     color: whitesmoke;
-    text-shadow: 2px 2px black;
+    text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -1px 0 0 #000000,
+    1px 0 0 #000000,
+    0 1px 0 #000000,
+    0 -1px 0 #000000;
 }
 
 /* Text Formatting */
@@ -29,7 +38,15 @@ h2 {
     font-weight: 400;
     font-style: italic;
     color: whitesmoke;
-    text-shadow: 2px 2px black;
+    text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -1px 0 0 #000000,
+    1px 0 0 #000000,
+    0 1px 0 #000000,
+    0 -1px 0 #000000;
 }
 
 /* Text Formatting */
@@ -39,19 +56,54 @@ h3 {
     font-weight: 400;
     color: whitesmoke;
     text-decoration-line: underline;
+    text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -1px 0 0 #000000,
+    1px 0 0 #000000,
+    0 1px 0 #000000,
+    0 -1px 0 #000000;
 }
 
+/* Text Formatting */
+h4 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: whitesmoke;
+    text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -1px 0 0 #000000,
+    1px 0 0 #000000,
+    0 1px 0 #000000,
+    0 -1px 0 #000000;
+}
+
+/* Text Formatting */
 p {
     color: whitesmoke;
-    text-shadow: 1px 1px black;
     font-size: 20px;
-    background-color: rgb(245, 245, 245, 0.3);
+    background-color: rgb(245, 245, 245, 0.8);
+    text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -1px 0 0 #000000,
+    1px 0 0 #000000,
+    0 1px 0 #000000,
+    0 -1px 0 #000000;
 }
 
+/* Text Formatting */
 #p2 {
     color: whitesmoke;
-    text-shadow: 1px 1px black;
-    font-size: 20px;
+    font-size: 7px;
     background-color: transparent;
 }
 
@@ -162,6 +214,8 @@ p {
     border-width: 2px;
 }
 
+
+
 /* YouTube Video Iframe */
 #iframe {
     border-style: solid;
@@ -169,31 +223,26 @@ p {
     border-width: 4px;
 }
 
-/* Card Group (just index) */
-#card-group-index {
-    height: 400px;
-}
-
-/* Card Bodies (just index) */
-#card-body-index {
-    border-style: none;
-}
-
-/* Card Body Images (just index) */
-#card-img-top-index {
-    border-style: none;
-}
 
 /* Card Bodies (excluding index) */
 .card-body {
     text-align: center;
     border-style: solid;
     border-color: black;
-    background-color: blue;
+    
+}
+
+#card-text {
+    
+    color: black;
+    font-size: 20px;
+    background-color: transparent;
+    text-shadow: none;
 }
 
 .card-accordion {
-    background-color: wheat;
+    background-color: rgb(245, 245, 245, 0.8);
+    /* background-color: rgb(245, 222, 179, 0.8); */
 }
 
 /* Card Bodies (accordion only) */
@@ -227,8 +276,23 @@ p {
 }
 
 /* Name next to CV/Resume links */
-#william-signature, #william-cv {
+#resume {
    text-align: left;
+   color: whitesmoke;
+   background-color: transparent;
+    font-size: 15px;
+    /* background-color: rgb(245, 245, 245, 0.8); */
+    /* background-color: rgb(245, 222, 179, 0.8); */
+    text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -1px 0 0 #000000,
+    1px 0 0 #000000,
+    0 1px 0 #000000,
+    0 -1px 0 #000000;
+
 }
 
 /* Container make YouTube video iframe fluid */
@@ -265,15 +329,12 @@ p {
 
 /* Footer */
 .footer {
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
-    text-align: center;
+    text-align: left;
     background-color: transparent;
-    border-top-style: none;
-    border-top-color: black;
-    border-top-width: 10px;
 }
 
 /* Footer */

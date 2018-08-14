@@ -12,10 +12,9 @@
     <link rel="stylesheet" type="text/css" href="assets/styles/styles.css">
 </head>
 
-<body>
+<body id="body-about">
 <!-- Responsive Content Container -->
 <div class="container-fluid">
-
     <!-- Row for page title and subtitle -->
     <div class="row" id="title-row-teacher">
         <div class="col-md-12">
@@ -44,7 +43,7 @@
             <div class="row" id="nav-row">
                 <div class="col-md-12">
                     <a class="btn btn-outline-primary btn-lg" href="index.html" id="btn-nav" role="button"><h6>Home</h6></a>
-                    <a class="btn btn-outline-primary btn-lg" href="aboutus.html" id="btn-nav" role="button"><h6>About Us</h6></a>
+                    <a class="btn btn-outline-primary btn-lg" href="about.html" id="btn-nav" role="button"><h6>About Us</h6></a>
                     <a class="btn btn-outline-primary btn-lg" href="recentworks.html" id="btn-nav" role="button"><h6>Recent Works</h6></a>   
                 </div>
             </div>
@@ -70,12 +69,10 @@
                     Aenean aliquet nibh a augue molestie, quis consectetur augue hendrerit.
                     Aenean elementum risus nec tellus venenatis auctor.                 
                 </p>
-                
             </div>
-            
-
-            </div>
-        
+             <!-- Link for CV -->
+             <p id="resume">- Hunter Obaggy: <a href="./assets/documents/William N. Aaron Bork - Technical Resume (08.09.18).pdf" target="_blank">Hunter Obaggy Resume (August 2018).pdf</a></p>
+        </div>
         
         <!-- Column for Accordion Component -->
         <div class="col-md-5"><h3>Services</h3>
@@ -126,25 +123,26 @@
                     </div>
                 </div>
             </div>
-            <br>
-            <!-- Iframe for Video -->
-            <div class="intrinsic-container intrinsic-container-16x9">
-                    <iframe src="https://www.youtube.com/embed/KUR4xMCdNqM" id="iframe" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-                <!-- Link for CV -->
-                <p id="william-signature">- William N. Aaron Bork: <a href="./assets/documents/William N. Aaron Bork - Curriculum Vitae (08.09.18).pdf" target="_blank">Curriculum Vitae (August 2018).pdf</a></p>
-            
         </div>
         <!-- Column for Spacing -->
         <div class="col-md-1"></div>
     </div>
-    <br>
-</div>
 
-    <!-- Footer -->
-    <!-- <div class="footer">
-        <p id="p2">Coded with <3 by William Bork</p>
-    </div> -->
+    <!-- Row for Video -->
+    <div class="row">
+        <!-- Column for Spacing -->
+        <div class="col-md-4"></div>
+        <!-- Column for Video -->
+        <div class="col-md-4"><h3>Our Story</h3>
+            <div class="intrinsic-container intrinsic-container-16x9">
+                <iframe src="https://www.youtube.com/embed/KUR4xMCdNqM" id="iframe" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!-- Column for Spacing -->
+        <div class="col-md-4"></div>
+    </div>
+    <br><br>
+</div>
 
     <!-- Linking to Bootstrap's JavaScript and jQuery CDNs -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
