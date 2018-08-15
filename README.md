@@ -1,5 +1,5 @@
-# Professional Portfolio Website
+# Obbagy Construction
 
-- A static portfolio website built with HTML, CSS, and Bootstrap.
+- A mostly static website for Obbagy Construction built with HTML, CSS, JavaScript, and Bootstrap.
 
 - https://github.com/WilliamBork33
