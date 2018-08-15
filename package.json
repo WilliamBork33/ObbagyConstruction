@@ -1,0 +1,24 @@
+{
+  "name": "obbagyconstruction",
+  "version": "1.0.0",
+  "description": "- A static portfolio website built with HTML, CSS, and Bootstrap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliamBork33/obbagyconstruction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilliamBork33/obbagyconstruction/issues"
+  },
+  "homepage": "https://github.com/WilliamBork33/obbagyconstruction#readme",
+  "dependencies": {
+    "ajax": "0.0.4",
+    "express": "^4.16.3",
+    "jquery": "^3.3.1"
+  }
+}
